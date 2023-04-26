@@ -2,4 +2,12 @@
     background-image: url(../IMG/baseFone.svg);
     background-repeat: no-repeat;
     background-size: cover;
+
+}
+.btn.btn-link{
+    text-decoration: none ;
+}
+.navbar.navbar-expand-lg.bg-body-tertiary{
+    margin-left: 9em;
+    margin-right: 9em;
 }
