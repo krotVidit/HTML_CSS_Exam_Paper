@@ -6,7 +6,8 @@ body {
     height: 100%;
     min-width: 520px;
 }
-img{
+
+img {
     max-width: 100%;
     height: auto;
 }
@@ -15,7 +16,7 @@ img{
     background-image: url(../IMG/baseFone.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    max-width:106em ;
+    max-width: 106em;
     margin: auto;
     width: 100%;
     height: 100%;
@@ -33,12 +34,12 @@ img{
 
 }
 
-@media (min-width: 1250px) {
+@media (min-width: 1100px) {
     .navbar.navbar-expand-lg {
         margin-left: 4em;
         margin-right: 4em;
         transition: all 0.3s ease;
-        
+
     }
 }
 
@@ -74,60 +75,106 @@ img{
 
 }
 
-.navbar.navbar-expand-lg{
-    
+.navbar.navbar-expand-lg {
+
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 1.5%;
 }
-.ContentBoxText a{
+
+.ContentBoxText a {
     text-decoration: none;
-    
-}
-
-.circle{
 
 
 }
 
-.WJTN{
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 48px; 
-width: 406px;
-height: 96px;
-left: 9em;
-top: 8em;
-}
-.VideoPng{
- margin-top: 8em;
+.circle {}
+
+.WJTN {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    width: 406px;
+    height: 96px;
+    left: 9em;
+    top: 8em;
 }
 
-.pngGroup{
+.VideoPng {
+    margin-top: 8em;
+}
+
+.pngGroup {
     padding-top: 8em;
     margin-left: 1em;
-    
+
 }
-.png1{
+
+.png1 {
     margin-bottom: 2em;
 }
 
 .ContentBoxImg {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-  min-width: 40%;
-  
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    min-width: 40%;
+
 }
 
 @media (max-width: 768px) {
-  .ContentBoxImg {
-    flex-wrap: wrap;
-  }
+    .ContentBoxImg {
+        flex-wrap: wrap;
+    }
 }
-.Block3{
+
+.Block3 {
+    position: relative;
     box-sizing: border-box;
-    padding-top: 2em;
+    padding-top: 3em;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+
+
+}
+
+.myBoxBerdes_1{
+    max-width: 21em;
+    max-height: 21.30em;
+    padding: 1.4em;
+    padding-bottom: 3em;
+    background-color: white;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    border: 1px ridge #3d3d3f08;
+    border-top: none;
+    border-radius: 0.8em;
+}
+
+.JoinOur a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    text-decoration: none;
+    color: #217BF4;
+    margin-left: 0.5em;
+    
+  
+}
+.rating {
+    display: flex;
+    padding-top: 1em;
+    padding-bottom: 0.7em;
+}
+.rating img {
+    margin-right: 0.5em;
+    margin-left: 0.3em;
+    
 }
