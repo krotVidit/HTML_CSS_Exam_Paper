@@ -18,6 +18,12 @@ body {
 
 .btn.btn-link {
     text-decoration: none;
+    line-height: 14px;
+    color: #217BF4;
+    border: 1px solid #217BF4;
+    border-radius: 8px;
+    padding: 10px;
+
 }
 
 @media (min-width: 1250px) {
@@ -28,10 +34,20 @@ body {
     }
 }
 
-.boxContent1 {}
 
+.nav-link.active {
+    font-weight: 600;
+    color: #2B2B39;
+}
 
-.nav-link.active{
-font-weight: 600;
-color: #2B2B39;
+.btn.btn-primary.btn-sm {
+    color: #1369d9;
+    background: #217cf42b;
+    opacity: 0.6;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    padding: 8px;
 }
