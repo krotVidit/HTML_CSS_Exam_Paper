@@ -64,3 +64,10 @@ body {
     line-height: 14px;
 
 }
+
+.navbar.navbar-expand-lg.bg-body-tertiary{
+    background-image: url(../IMG/baseFone.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
