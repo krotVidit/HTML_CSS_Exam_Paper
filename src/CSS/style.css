@@ -1,13 +1,37 @@
-.header{
+body {
+    font-family: 'Inter';
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
     background-image: url(../IMG/baseFone.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 
 }
-.btn.btn-link{
-    text-decoration: none ;
+
+.btn.btn-link {
+    text-decoration: none;
 }
-.navbar.navbar-expand-lg.bg-body-tertiary{
-    margin-left: 9em;
-    margin-right: 9em;
+
+@media (min-width: 1250px) {
+    .navbar.navbar-expand-lg.bg-body-tertiary {
+        margin-left: 4em;
+        margin-right: 4em;
+        transition: all 0.3s ease;
+    }
+}
+
+.boxContent1 {}
+
+
+.nav-link.active{
+font-weight: 600;
+color: #2B2B39;
 }
