@@ -12,6 +12,7 @@ img {
     height: auto;
 }
 
+/* Блок 1  */
 .header {
     background-image: url(../IMG/baseFone.svg);
     background-repeat: no-repeat;
@@ -82,14 +83,21 @@ img {
     margin-top: 1.5%;
 }
 
+/* Блок 2  */
+
+
 .ContentBoxText a {
     text-decoration: none;
-
+}
+.ContentBoxImg {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    min-width: 40%;
+    border-radius: 3em;
 
 }
-
-
-
 
 .WJTN {
     font-style: normal;
@@ -102,27 +110,9 @@ img {
     top: 8em;
 }
 
-.VideoPng {
-    margin-top: 8em;
-}
-
 .pngGroup {
     padding-top: 8em;
     margin-left: 1em;
-
-}
-
-.png1 {
-    margin-bottom: 2em;
-}
-
-.ContentBoxImg {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    min-width: 40%;
-    border-radius: 3em;
 
 }
 
@@ -131,6 +121,8 @@ img {
         flex-wrap: wrap;
     }
 }
+
+/* Блок 3  */
 
 .Block3 {
     position: relative;
@@ -146,8 +138,6 @@ img {
     font-weight: 500;
     font-size: 20px;
     line-height: 20px;
-
-
 }
 
 .myBoxBerdes_1{
@@ -193,9 +183,8 @@ img {
 }
 .myBoxBerdes_3{
  max-width: 25.4em;   
- max-height: 21.3em;
-padding: 1.4em;
-padding-bottom: 2em;
+ max-height: 21.7em;
+padding-top: 1em;
 }
 
 
@@ -203,17 +192,18 @@ padding-bottom: 2em;
     text-decoration: none;
     font-size:18px;
     line-height: 18px;
-     color:#217BF4;;
+    color:#217BF4;;
+    
 }
 .h3We{
-padding-top: 0.1em;
+padding-top: 0.2em;
 font-weight: 700;
 font-size: 36px;
 line-height: 48px;  
 color: #0A093D;
 }
 .button_DiscoverMe{
-margin-top: 1em;  
+margin-top: 2em;  
 font-weight: 500;
 font-size: 14px;
 line-height: 14px;
@@ -225,6 +215,10 @@ letter-spacing: -0.02em;
 width: 12em;
 height:3.6em;
 }
+
+
+/* Блок 4 */
+
 .Block4{
     margin-top: 3em;
 }
