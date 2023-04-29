@@ -88,7 +88,8 @@ img {
 
 }
 
-.circle {}
+
+
 
 .WJTN {
     font-style: normal;
@@ -121,11 +122,12 @@ img {
     flex-direction: row;
     justify-content: center;
     min-width: 40%;
+    border-radius: 3em;
 
 }
 
 @media (max-width: 768px) {
-    .ContentBoxImg {
+    .ContentBoxImg  {
         flex-wrap: wrap;
     }
 }
@@ -133,7 +135,9 @@ img {
 .Block3 {
     position: relative;
     box-sizing: border-box;
-    padding-top: 3em;
+    margin-top: 3em;
+    padding-bottom: 6em;
+    
 }
 
 .rating {
@@ -177,4 +181,54 @@ img {
     margin-right: 0.5em;
     margin-left: 0.3em;
     
+}
+.myBoxBerdes_2{
+     max-width: 21em;
+    max-height: 21.30em;
+    padding: 1.4em;
+    padding-bottom: 3em;
+    background-color:#ededed0f;
+    border: 1px solid #30303118;
+    border-radius: 0.8em;
+}
+.myBoxBerdes_3{
+ max-width: 25.4em;   
+ max-height: 21.3em;
+padding: 1.4em;
+padding-bottom: 2em;
+}
+
+
+.Our{
+    text-decoration: none;
+    font-size:18px;
+    line-height: 18px;
+     color:#217BF4;;
+}
+.h3We{
+padding-top: 0.1em;
+font-weight: 700;
+font-size: 36px;
+line-height: 48px;  
+color: #0A093D;
+}
+.button_DiscoverMe{
+margin-top: 1em;  
+font-weight: 500;
+font-size: 14px;
+line-height: 14px;
+letter-spacing: -0.02em;
+ 
+
+}
+.button_DiscoverMe button{
+width: 12em;
+height:3.6em;
+}
+.Block4{
+    margin-top: 3em;
+}
+.box_title {
+width: 27.6em;
+height: 8.6;
 }
