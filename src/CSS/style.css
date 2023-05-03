@@ -13,10 +13,14 @@ img {
 }
 
 /* Блок 1  */
-.header {
-    background-image: url(../IMG/baseFone.svg);
-    background-repeat: no-repeat;
+.Block1{
+background-image: url(../IMG/baseFone.svg);
+  background-repeat: no-repeat;
     background-size: cover;
+}
+.header {
+    
+
     max-width: 106em;
     margin: auto;
     width: 100%;
@@ -240,7 +244,10 @@ img {
 }
 
 /*Блок 5  */
-
+.Block5 {
+    padding-bottom: 3em;
+    margin-bottom: 3em;
+}
 
 .Radio {
     width: 25em;
@@ -250,5 +257,20 @@ img {
     margin-bottom: 4em;
     padding-bottom: 2em;
     padding-top: 2em;
+}
+/* Блок 6 */
 
+.Block6{
+    padding-top: 1em;
+    margin-bottom: 5em;
+    background-color:#E5F0FD; ;
+}
+/* Блок 7 */
+.Block7{
+    padding-bottom: 2em;
+    margin-bottom: 4em;
+}
+/* Блок 8 */
+.Block8{
+    background-color:#2B2B39 ;
 }
