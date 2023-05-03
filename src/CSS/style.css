@@ -89,6 +89,7 @@ img {
 .ContentBoxText a {
     text-decoration: none;
 }
+
 .ContentBoxImg {
     display: flex;
     flex-wrap: wrap;
@@ -117,7 +118,7 @@ img {
 }
 
 @media (max-width: 768px) {
-    .ContentBoxImg  {
+    .ContentBoxImg {
         flex-wrap: wrap;
     }
 }
@@ -129,7 +130,7 @@ img {
     box-sizing: border-box;
     margin-top: 3em;
     padding-bottom: 6em;
-    
+
 }
 
 .rating {
@@ -140,7 +141,7 @@ img {
     line-height: 20px;
 }
 
-.myBoxBerdes_1{
+.myBoxBerdes_1 {
     max-width: 21em;
     max-height: 21.30em;
     padding: 1.4em;
@@ -159,70 +160,95 @@ img {
     text-decoration: none;
     color: #217BF4;
     margin-left: 0.5em;
-    
-  
+
+
 }
+
 .rating {
     display: flex;
     padding-top: 1em;
     padding-bottom: 0.7em;
 }
+
 .rating img {
     margin-right: 0.5em;
     margin-left: 0.3em;
-    
+
 }
-.myBoxBerdes_2{
-     max-width: 21em;
+
+.myBoxBerdes_2 {
+    max-width: 21em;
     max-height: 21.30em;
     padding: 1.4em;
     padding-bottom: 3em;
-    background-color:#ededed0f;
+    background-color: #ededed0f;
     border: 1px solid #30303118;
     border-radius: 0.8em;
 }
-.myBoxBerdes_3{
- max-width: 25.4em;   
- max-height: 21.7em;
-padding-top: 1em;
+
+.myBoxBerdes_3 {
+    max-width: 25.4em;
+    max-height: 21.7em;
+    padding-top: 1em;
 }
 
 
-.Our{
+.Our {
     text-decoration: none;
-    font-size:18px;
+    font-size: 18px;
     line-height: 18px;
-    color:#217BF4;;
-    
-}
-.h3We{
-padding-top: 0.2em;
-font-weight: 700;
-font-size: 36px;
-line-height: 48px;  
-color: #0A093D;
-}
-.button_DiscoverMe{
-margin-top: 2em;  
-font-weight: 500;
-font-size: 14px;
-line-height: 14px;
-letter-spacing: -0.02em;
- 
+    color: #217BF4;
+    ;
 
 }
-.button_DiscoverMe button{
-width: 12em;
-height:3.6em;
+
+.h3We {
+    padding-top: 0.2em;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #0A093D;
+}
+
+.button_DiscoverMe {
+    margin-top: 2em;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: -0.02em;
+
+
+}
+
+.button_DiscoverMe button {
+    width: 12em;
+    height: 3.6em;
 }
 
 
 /* Блок 4 */
 
-.Block4{
-    margin-top: 3em;
+.Block4 {
+    padding-top: 3em;
+    background: linear-gradient(0deg, rgba(241, 246, 253, 0) 1.63%, #F1F6FD 20.5%, #F1F6FD 58.57%, #FFFFFF 100%);
+    padding-bottom: 5em;
 }
+
 .box_title {
-width: 27.6em;
-height: 8.6;
+    width: 27.6em;
+    height: 8.6;
+}
+
+/*Блок 5  */
+
+
+.Radio {
+    width: 25em;
+    height: 4.5em;
+    background-color: #cbddf542;
+    border-radius: 14px;
+    margin-bottom: 4em;
+    padding-bottom: 2em;
+    padding-top: 2em;
+
 }
