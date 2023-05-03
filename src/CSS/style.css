@@ -4,7 +4,7 @@ body {
     padding: 0;
     width: 100%;
     height: 100%;
-    min-width: 520px;
+    min-width: 32.5em;
 }
 
 img {
@@ -19,27 +19,24 @@ background-image: url(../IMG/baseFone.svg);
     background-size: cover;
 }
 .header {
-    
-
     max-width: 106em;
     margin: auto;
     width: 100%;
     height: 100%;
     overflow: hidden;
-
 }
 
 .btn.btn-link {
     text-decoration: none;
-    line-height: 14px;
+    line-height: 0.875em;
     color: #217BF4;
     border: 1px solid #217BF4;
-    border-radius: 8px;
-    padding: 10px;
+    border-radius: 0.5em;
+    padding: 0.625em;
 
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 68.5em) {
     .navbar.navbar-expand-lg {
         margin-left: 4em;
         margin-right: 4em;
@@ -50,7 +47,7 @@ background-image: url(../IMG/baseFone.svg);
 
 
 .nav-link.active {
-    font-weight: 600;
+    font-weight: 37.5em;
     color: #2B2B39;
 }
 
@@ -60,10 +57,10 @@ background-image: url(../IMG/baseFone.svg);
     opacity: 0.6;
     border-radius: 8px;
     font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 12px;
-    padding: 8px;
+    font-weight: 31.25em;
+    font-size: 0.75em;
+    line-height: 0.75em;
+    padding: 0.5em;
     margin-bottom: 2em;
 }
 
@@ -72,11 +69,11 @@ background-image: url(../IMG/baseFone.svg);
     border: none;
     border-bottom: 1px solid #ccc;
     padding-left: 10px;
-    width: 110px;
-    height: 32px;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
+    width: 6.875em;
+    height: 2em;
+    font-weight: 25em;
+    font-size: 0.75em;
+    line-height: 0.875em;
 
 }
 
@@ -107,10 +104,10 @@ background-image: url(../IMG/baseFone.svg);
 .WJTN {
     font-style: normal;
     font-weight: 700;
-    font-size: 36px;
-    line-height: 48px;
-    width: 406px;
-    height: 96px;
+    font-size: 2.25em;
+    line-height: 1.30em;
+    width: 17em;
+    height: 3.5em;
     left: 9em;
     top: 8em;
 }
@@ -121,7 +118,7 @@ background-image: url(../IMG/baseFone.svg);
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 48em) {
     .ContentBoxImg {
         flex-wrap: wrap;
     }
@@ -159,8 +156,8 @@ background-image: url(../IMG/baseFone.svg);
 
 .JoinOur a {
     font-weight: 500;
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 1em;
+    line-height: 1em;
     text-decoration: none;
     color: #217BF4;
     margin-left: 0.5em;
@@ -199,8 +196,8 @@ background-image: url(../IMG/baseFone.svg);
 
 .Our {
     text-decoration: none;
-    font-size: 18px;
-    line-height: 18px;
+    font-size: 1.125em;
+    line-height: 1.125em;
     color: #217BF4;
     ;
 
@@ -209,8 +206,8 @@ background-image: url(../IMG/baseFone.svg);
 .h3We {
     padding-top: 0.2em;
     font-weight: 700;
-    font-size: 36px;
-    line-height: 48px;
+    font-size: 2.25em;
+    line-height: 1.25em;
     color: #0A093D;
 }
 
