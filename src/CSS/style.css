@@ -95,8 +95,9 @@ img {
     }
 
 }
+
 @media (min-width: 1000px) {
-    .carouselBlock  {
+    .carouselBlock {
         display: none;
     }
 
@@ -106,9 +107,9 @@ img {
 
 .carouselBlock img {
     min-width: 400px;
-   
-    
-    
+
+
+
 
 }
 
@@ -118,7 +119,7 @@ img {
     margin-top: 10em;
     margin-right: 5em;
     max-width: 420px;
-    max-height:346px ;
+    max-height: 346px;
 
 
 }
@@ -134,8 +135,8 @@ img {
     justify-content: center;
     min-width: 40%;
     border-radius: 3em;
-    
-    
+
+
 }
 
 .WJTN {
@@ -281,6 +282,9 @@ img {
 /* Блок 4 */
 
 .Block4 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    
     padding-top: 3em;
     background: linear-gradient(0deg, rgba(241, 246, 253, 0) 1.63%, #F1F6FD 20.5%, #F1F6FD 58.57%, #FFFFFF 100%);
     padding-bottom: 5em;
