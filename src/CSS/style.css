@@ -140,43 +140,13 @@ img {
 
 /* Блок 3  */
 
-
-
-@media (max-width: 767.98px) {
-    .Block3 .row {
-        flex-direction: column;
-
-    }
-
-    .Block3 .col {
-        width: 100%;
-    }
+.Block_3 {
+ margin-top: 4em;
+ margin-bottom: 6em;
 }
 
-@media only screen and (max-width: 768px) {
-    .Block3 .row.align-items-start>div {
-        margin-bottom: 2.5em;
-        text-align: center;
-    }
-}
 
-.Block3 {
-    position: relative;
-    box-sizing: border-box;
-    margin-top: 3em;
-    padding-bottom: 6em;
-
-}
-
-.rating {
-    display: flex;
-    align-items: center;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 20px;
-}
-
-.myBoxBerdes_1 {
+.Bl3_Box1 {
     width: 20em;
     height: 20.30em;
     padding: 1.4em;
@@ -188,7 +158,22 @@ img {
     border-radius: 0.8em;
 }
 
-.JoinOur a {
+
+.Bl3_Box1_Rating {
+    display: flex;
+    padding-top: 1em;
+    padding-bottom: 0.7em;
+    display: flex;
+   
+}
+
+.Bl3_Box1_Rating img {
+    margin-right: 0.5em;
+    margin-left: 0.3em;
+
+}
+
+.Bl3_Box1_link_Join a {
     font-weight: 500;
     font-size: 1em;
     line-height: 1em;
@@ -196,22 +181,9 @@ img {
     color: #217BF4;
     margin-left: 0.5em;
 
-
 }
 
-.rating {
-    display: flex;
-    padding-top: 1em;
-    padding-bottom: 0.7em;
-}
-
-.rating img {
-    margin-right: 0.5em;
-    margin-left: 0.3em;
-
-}
-
-.myBoxBerdes_2 {
+.Bl3_Box2  {
     width: 20em;
     height: 20.30em;
     padding: 1.4em;
@@ -221,47 +193,64 @@ img {
     border-radius: 0.8em;
 }
 
-.myBoxBerdes_3 {
+.Bl3_Box3{
     width: 20em;
     height: 20.30em;
     padding-top: 1em;
 }
 
 
-.Our {
+.Bl3_Box3 a {
     text-decoration: none;
-    font-size: 1.125em;
+    font-size: 1.1em;
     line-height: 1.125em;
     color: #217BF4;
-    ;
 
 }
 
-.h3We {
+.Bl3_Box3 h3 {
     padding-top: 0.2em;
     font-weight: 700;
-    font-size: 2.25em;
+    font-size: 2em;
     line-height: 1.25em;
     color: #0A093D;
 }
 
-.button_DiscoverMe {
+.Bl3_Box3_Button_Discover{
     margin-top: 2em;
     font-weight: 500;
     font-size: 14px;
     line-height: 14px;
     letter-spacing: -0.02em;
-
-
 }
 
-.button_DiscoverMe button {
+.Bl3_Box3_Button_Discover button {
     width: 12em;
     height: 3.6em;
 }
 
 
+@media (max-width: 767.98px) {
+    .Block_3 .row {
+        flex-direction: column;
+
+    }
+
+    .Block_3 .col {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .Block_3 .row.align-items-start>div {
+        margin-bottom: 2.5em;
+        text-align: center;
+    }
+}
+
+
 /* Блок 4 */
+
 
 .Block4 {
     background-repeat: no-repeat;
