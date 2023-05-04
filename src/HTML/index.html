@@ -25,13 +25,14 @@
 
 
 
-    <!--Первый Блок -->
+    <!--Навигационная панелm и первый блок  -->
 
-
-
-    <div class="Block1">
+    <div class="Navigation_and_Block_1">
         <header class="header">
-            <nav class="navbar navbar-expand-lg ">
+
+            <!-- Навигационная панель  -->
+            
+            <nav class="Navbar_Panel navbar navbar-expand-lg ">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#"><img src="../IMG/logo .svg" alt=""></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -40,11 +41,11 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
-
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                     aria-expanded="false">
@@ -66,34 +67,42 @@
                                 <a class="nav-link" hlef="#">Events</a>
                             </li>
                         </ul>
+
                         <form class="d-flex" role="search">
                             <img style="margin-right: 0.4em; " src="../IMG/search.svg" alt="">
-                            <input class="form-control me-2" type="search" placeholder="Search Here..."
+                            <input class="Search_field form-control me-2" type="search" placeholder="Search Here..."
                                 aria-label="Search">
                         </form>
-
                         <button class="btn btn-primary float-end" type="button">Log in</button>
                     </div>
                 </div>
             </nav>
-            <div class="container">
-                <div class="hstack gap-2">
+            <!-- TODO: может поставить везде контейнер- филд , могло бы решить проблему больших экранов -->
 
-                    <div class="boxContent1">
-                        <div class="p-2"><button type="button" class="btn btn-primary btn-sm">Netbook community</button>
-                            <h1>Your Solutions For Community</h1>
-                            <div class="d-flex p-2">More than 2 billion people in over countries use socibook to stay in
-                                touch
-                                with friends & family.</div>
-                            <div class="hstack gap-2">
-                                <div class="p-2">
-                                    <button type="button" class="btn btn-primary">About More</button>
+            <!-- Блок 1 -->
+
+            <div class="Block_1">
+                <div class="container">
+                    <div class="hstack gap-2">
+                        <div class="boxContent1">
+                            <div class="p-2"><button type="button" class="Button_Netbook btn btn-primary btn-sm">Netbook
+                                    community</button>
+                                <h1>Your Solutions For Community</h1>
+                                <div class="d-flex p-2">More than 2 billion people in over countries use socibook to
+                                    stay in
+                                    touch
+                                    with friends & family.</div>
+                                <div class="hstack gap-2">
+                                    <div class="p-2">
+                                        <button type="button" class="btn btn-primary">About More</button>
+                                    </div>
+                                    <div class="p-2"><button type="button" class="Button_Invite btn btn-link">Invite
+                                            Friend</button></div>
                                 </div>
-                                <div class="p-2"><button type="button" class="btn btn-link">Invite Friend</button></div>
                             </div>
                         </div>
+                        <div class="p-2"><img src="../IMG/Iamge.svg" alt=""></div>
                     </div>
-                    <div class="p-2"><img src="../IMG/Iamge.svg" alt=""></div>
                 </div>
             </div>
         </header>
@@ -103,75 +112,72 @@
     <!--Второй Блок-->
 
 
-
     <div class="Block2">
         <div class="container">
-            <div class="container ">
-                <div class=" row">
-                    <div class=" col">
-                        <div class="ContentBoxText">
-                            <a hlef="">Whats Netboks?</a>
-                            <h1 class="WJTN" style="max-width: 13em;">Why Join to Netbook Social Network?</h1>
-                            <div class="d-flex p-2">Recent surveys have indicated that small businesses recognise the
-                                need
-                                they
-                                have to connect with consumer.</div>
-                            <ul class="circleList">
-                                <li>Groups</li>
-                                <li>Messages</li>
-                                <li>Share</li>
-                            </ul>
-                        </div>
+            <div class=" row">
+                <div class=" col">
+                    <div class="ContentBoxText">
+                        <a hlef="">Whats Netboks?</a>
+                        <h1 class="WJTN" style="max-width: 13em;">Why Join to Netbook Social Network?</h1>
+                        <div class="d-flex p-2">Recent surveys have indicated that small businesses recognise the
+                            need
+                            they
+                            have to connect with consumer.</div>
+                        <ul class="circleList">
+                            <li>Groups</li>
+                            <li>Messages</li>
+                            <li>Share</li>
+                        </ul>
                     </div>
+                </div>
 
-                    <div class="col">
-                        <div class="ContentBoxPng ">
-                            <div class="hstack gap-2">
-                                <div class="p-2">
-                                    <div style=" margin-top: 8em; cursor: pointer;">
-                                        <img style="border-radius: 1em;" src="../IMG/VideoGroupPNG.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="hstack gap-2">
-                                    <div class="pngGroup">
-                                        <div style="margin-bottom: 2em;"><img style="border-radius: 1em;"
-                                                src="../IMG/Group2PNG.png" alt="">
-                                        </div>
-                                        <div><img style="border-radius: 1em;" src="../IMG/Group2PNG2.png" alt=""></div>
-                                    </div>
+                <div class="col">
+                    <div class="ContentBoxPng ">
+                        <div class="hstack gap-2">
+                            <div class="p-2">
+                                <div style=" margin-top: 8em; cursor: pointer;">
+                                    <img style="border-radius: 1em;" src="../IMG/VideoGroupPNG.png" alt="">
                                 </div>
                             </div>
-
-                            <div class="carouselBlock">
-                                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                                    <ol class="carousel-indicators" style="display: none;">
-                                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                                            class="active"></li>
-                                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
-                                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
-                                    </ol>
-                                    <div class="carousel-inner" style="border-radius: 14px; margin-top: 3em;">
-                                        <div class="carousel-item active" style="cursor: pointer;">
-                                            <img src="../IMG/Group2PNG_mini.png" class="d-block w-100" alt="...">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../IMG/Group2PNG.png" class="d-block w-100" alt="...">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../IMG/Group2PNG2.png" class="d-block w-100" alt="...">
-                                        </div>
+                            <div class="hstack gap-2">
+                                <div class="pngGroup">
+                                    <div style="margin-bottom: 2em;"><img style="border-radius: 1em;"
+                                            src="../IMG/Group2PNG.png" alt="">
                                     </div>
-                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
-                                        data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Previous</span>
-                                    </a>
-                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
-                                        data-bs-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Next</span>
-                                    </a>
+                                    <div><img style="border-radius: 1em;" src="../IMG/Group2PNG2.png" alt=""></div>
                                 </div>
+                            </div>
+                        </div>
+
+                        <div class="carouselBlock">
+                            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                                <ol class="carousel-indicators" style="display: none;">
+                                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active">
+                                    </li>
+                                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner" style="border-radius: 14px; margin-top: 3em;">
+                                    <div class="carousel-item active" style="cursor: pointer;">
+                                        <img src="../IMG/Group2PNG_mini.png" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../IMG/Group2PNG.png" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../IMG/Group2PNG2.png" class="d-block w-100" alt="...">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                    data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                    data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -179,6 +185,7 @@
             </div>
         </div>
     </div>
+
     <!--Третий  блок-->
 
 

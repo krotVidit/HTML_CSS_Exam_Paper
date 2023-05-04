@@ -12,8 +12,9 @@ img {
     height: auto;
 }
 
-/* Блок 1  */
-.Block1 {
+/* Навигационная панель */
+
+.Navigation_and_Block_1 {
     background-image: url(../IMG/baseFone.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,51 +22,20 @@ img {
 
 .header {
     max-width: 106em;
-    margin: auto;
+    margin:auto;
     width: 100%;
     height: 100%;
     overflow: hidden;
 }
 
-.btn.btn-link {
-    text-decoration: none;
-    line-height: 0.875em;
-    color: #217BF4;
-    border: 1px solid #217BF4;
-    border-radius: 0.5em;
-    padding: 0.625em;
+.Navbar_Panel {
 
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 1.5%;
 }
 
-@media (min-width: 68.5em) {
-    .navbar.navbar-expand-lg {
-        margin-left: 4em;
-        margin-right: 4em;
-        transition: all 0.3s ease;
-
-    }
-}
-
-
-.nav-link.active {
-    font-weight: 37.5em;
-    color: #2B2B39;
-}
-
-.btn.btn-primary.btn-sm {
-    color: #1369d9;
-    background: #217cf42b;
-    opacity: 0.6;
-    border-radius: 8px;
-    font-style: normal;
-    font-weight: 31.25em;
-    font-size: 0.75em;
-    line-height: 0.75em;
-    padding: 0.5em;
-    margin-bottom: 2em;
-}
-
-.form-control.me-2 {
+.Search_field {
     background: transparent;
     border: none;
     border-bottom: 1px solid #ccc;
@@ -78,16 +48,44 @@ img {
 
 }
 
-.navbar.navbar-expand-lg {
 
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 1.5%;
+@media (min-width: 68.5em) {
+    .Navbar_Panel {
+        margin-left: 4em;
+        margin-right: 4em;
+        transition: all 0.3s ease;
+
+    }
+}
+
+/* Блок 1 */
+
+.Button_Invite {
+    text-decoration: none;
+    line-height: 0.875em;
+    color: #217BF4;
+    border: 1px solid #217BF4;
+    border-radius: 0.5em;
+    padding: 0.625em;
+
+}
+
+.Button_Netbook {
+    color: #1369d9;
+    background: #217cf42b;
+    opacity: 0.6;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 31.25em;
+    font-size: 0.75em;
+    line-height: 0.75em;
+    padding: 0.5em;
+    margin-bottom: 2em;
 }
 
 
-
 /* Блок 2  */
+
 
 @media (max-width: 1000px) {
     .ContentBoxPng img {
@@ -284,7 +282,7 @@ img {
 .Block4 {
     background-repeat: no-repeat;
     background-size: cover;
-    
+
     padding-top: 3em;
     background: linear-gradient(0deg, rgba(241, 246, 253, 0) 1.63%, #F1F6FD 20.5%, #F1F6FD 58.57%, #FFFFFF 100%);
     padding-bottom: 5em;
