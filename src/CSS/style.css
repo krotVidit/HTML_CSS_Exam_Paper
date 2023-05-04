@@ -70,7 +70,7 @@ img {
     border: none;
     border-bottom: 1px solid #ccc;
     padding-left: 10px;
-    width: 6.875em;
+    width: 9em;
     height: 2em;
     font-weight: 25em;
     font-size: 0.75em;
@@ -85,12 +85,30 @@ img {
     margin-top: 1.5%;
 }
 
+
+
 /* Блок 2  */
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
     .ContentBoxPng img {
         display: none;
     }
+
+}
+@media (min-width: 1000px) {
+    .carouselBlock  {
+        display: none;
+    }
+
+}
+
+
+
+.carouselBlock img {
+    min-width: 400px;
+   
+    
+    
 
 }
 
