@@ -12,7 +12,9 @@ img {
     height: auto;
 }
 
+
 /* Навигационная панель */
+
 
 .Navigation_and_Block_1 {
     background-image: url(../IMG/baseFone.svg);
@@ -58,7 +60,9 @@ img {
     }
 }
 
+
 /* Блок 1 */
+
 
 .Button_Invite {
     text-decoration: none;
@@ -85,6 +89,7 @@ img {
 
 
 /* Блок 2  */
+
 
 .Bl2_Box1 {
     margin-top: 10em;
@@ -139,6 +144,7 @@ img {
 
 
 /* Блок 3  */
+
 
 .Block_3 {
  margin-top: 4em;
@@ -200,7 +206,7 @@ img {
 }
 
 
-.Bl3_Box3 a {
+.Bl3_Box3_link_Our{
     text-decoration: none;
     font-size: 1.1em;
     line-height: 1.125em;
@@ -208,7 +214,7 @@ img {
 
 }
 
-.Bl3_Box3 h3 {
+.Bl3_Box3_Title {
     padding-top: 0.2em;
     font-weight: 700;
     font-size: 2em;
@@ -252,34 +258,37 @@ img {
 /* Блок 4 */
 
 
-.Block4 {
+.Block_4 {
     background-repeat: no-repeat;
     background-size: cover;
-
     padding-top: 3em;
     background: linear-gradient(0deg, rgba(241, 246, 253, 0) 1.63%, #F1F6FD 20.5%, #F1F6FD 58.57%, #FFFFFF 100%);
     padding-bottom: 5em;
 }
 
-.box_title {
+.Bl4_Box1_TextCenter {
     width: 27.6em;
     height: 8.6;
+    margin-bottom: 2.5em;
 }
 
-/*Блок 5  */
+@media (max-width: 767.98px) {
+    .Bl4_BoxCollum .row>div {
+        width: 100%;
 
-@media (min-width: 768px) {
-    .CarPng.carousel.slide.d-md-none.d-lg-flex img {
-        display: none;
     }
 }
 
-.Block5 {
+
+/*Блок 5  */
+
+
+.Block_5 {
     padding-bottom: 3em;
     margin-bottom: 3em;
 }
 
-.Radio {
+.Bl5_BoxRadio {
     width: 25em;
     height: 4.5em;
     background-color: #cbddf542;
@@ -289,30 +298,35 @@ img {
     padding-top: 2em;
 }
 
-@media (max-width: 767.98px) {
-    .BoxCollum .row>div {
-        width: 100%;
-
+@media (min-width: 768px) {
+    .Box5_CollumPnG_Carousel img {
+        display: none;
     }
 }
 
 
 /* Блок 6 */
 
-.Block6 {
+
+.Block_6 {
     padding-top: 1em;
     margin-bottom: 5em;
     background-color: #E5F0FD;
-    ;
 }
 
+
 /* Блок 7 */
-.Block7 {
+
+
+.Block_7 {
     padding-bottom: 2em;
     margin-bottom: 4em;
 }
 
+
 /* Блок 8 */
-.Block8 {
+
+
+.Block_8 {
     background-color: #2B2B39;
 }
