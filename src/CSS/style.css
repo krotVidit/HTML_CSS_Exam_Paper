@@ -13,11 +13,12 @@ img {
 }
 
 /* Блок 1  */
-.Block1{
-background-image: url(../IMG/baseFone.svg);
-  background-repeat: no-repeat;
+.Block1 {
+    background-image: url(../IMG/baseFone.svg);
+    background-repeat: no-repeat;
     background-size: cover;
 }
+
 .header {
     max-width: 106em;
     margin: auto;
@@ -86,24 +87,37 @@ background-image: url(../IMG/baseFone.svg);
 
 /* Блок 2  */
 
-@media (min-width: 768px) {
-  .CarPng.carousel.slide.d-md-none.d-lg-flex img {
-    display: none;
-  }
+@media (max-width: 1200px) {
+    .ContentBoxPng img {
+        display: none;
+    }
+
+}
+
+
+
+.ContentBoxText {
+    margin-top: 10em;
+    margin-right: 5em;
+    max-width: 420px;
+    max-height:346px ;
+
+
 }
 
 .ContentBoxText a {
     text-decoration: none;
 }
 
-.ContentBoxImg {
+.ContentBoxPng {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     min-width: 40%;
     border-radius: 3em;
-
+    
+    
 }
 
 .WJTN {
@@ -123,13 +137,27 @@ background-image: url(../IMG/baseFone.svg);
 
 }
 
-@media (max-width: 48em) {
-    .ContentBoxImg {
-        flex-wrap: wrap;
+
+
+/* Блок 3  */
+
+@media (max-width: 767.98px) {
+    .Block3 .row {
+        flex-direction: column;
+
+    }
+
+    .Block3 .col {
+        width: 100%;
     }
 }
 
-/* Блок 3  */
+@media only screen and (max-width: 768px) {
+    .Block3 .row.align-items-start>div {
+        margin-bottom: 2.5em;
+        text-align: center;
+    }
+}
 
 .Block3 {
     position: relative;
@@ -148,8 +176,8 @@ background-image: url(../IMG/baseFone.svg);
 }
 
 .myBoxBerdes_1 {
-    max-width: 21em;
-    max-height: 21.30em;
+    width: 20em;
+    height: 20.30em;
     padding: 1.4em;
     padding-bottom: 3em;
     background-color: white;
@@ -183,8 +211,8 @@ background-image: url(../IMG/baseFone.svg);
 }
 
 .myBoxBerdes_2 {
-    max-width: 21em;
-    max-height: 21.30em;
+    width: 20em;
+    height: 20.30em;
     padding: 1.4em;
     padding-bottom: 3em;
     background-color: #ededed0f;
@@ -193,8 +221,8 @@ background-image: url(../IMG/baseFone.svg);
 }
 
 .myBoxBerdes_3 {
-    max-width: 25.4em;
-    max-height: 21.7em;
+    width: 20em;
+    height: 20.30em;
     padding-top: 1em;
 }
 
@@ -246,6 +274,13 @@ background-image: url(../IMG/baseFone.svg);
 }
 
 /*Блок 5  */
+
+@media (min-width: 768px) {
+    .CarPng.carousel.slide.d-md-none.d-lg-flex img {
+        display: none;
+    }
+}
+
 .Block5 {
     padding-bottom: 3em;
     margin-bottom: 3em;
@@ -262,26 +297,29 @@ background-image: url(../IMG/baseFone.svg);
 }
 
 @media (max-width: 767.98px) {
-  .BoxCollum .row > div {
-    width: 100%;
-    margin-bottom: 10px;
-  }
+    .BoxCollum .row>div {
+        width: 100%;
+
+    }
 }
 
-  
+
 /* Блок 6 */
 
-.Block6{
+.Block6 {
     padding-top: 1em;
     margin-bottom: 5em;
-    background-color:#E5F0FD; ;
+    background-color: #E5F0FD;
+    ;
 }
+
 /* Блок 7 */
-.Block7{
+.Block7 {
     padding-bottom: 2em;
     margin-bottom: 4em;
 }
+
 /* Блок 8 */
-.Block8{
-    background-color:#2B2B39 ;
+.Block8 {
+    background-color: #2B2B39;
 }
