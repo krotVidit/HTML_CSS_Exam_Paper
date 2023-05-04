@@ -86,58 +86,13 @@ img {
 
 /* Блок 2  */
 
-
-@media (max-width: 1000px) {
-    .ContentBoxPng img {
-        display: none;
-    }
-
-}
-
-@media (min-width: 1000px) {
-    .carouselBlock {
-        display: none;
-    }
-
-}
-
-
-
-.carouselBlock img {
-    min-width: 400px;
-
-
-
-
-}
-
-
-
-.ContentBoxText {
+.Bl2_Box1 {
     margin-top: 10em;
     margin-right: 5em;
     max-width: 420px;
     max-height: 346px;
-
-
 }
-
-.ContentBoxText a {
-    text-decoration: none;
-}
-
-.ContentBoxPng {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    min-width: 40%;
-    border-radius: 3em;
-
-
-}
-
-.WJTN {
+.Bl2_Box1_Title {
     font-style: normal;
     font-weight: 700;
     font-size: 2.25em;
@@ -145,18 +100,47 @@ img {
     width: 17em;
     height: 3.5em;
     left: 9em;
-    top: 8em;
+    margin-top: 0.5em;
+    
 }
 
-.pngGroup {
+.Bl2_Box2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    min-width: 40%;
+    border-radius: 3em;
+}
+.Bl2_Box2_PngGroup {
     padding-top: 8em;
     margin-left: 1em;
 
 }
 
+.Bl2_Box2_Carousel img {
+    min-width: 400px;
+}
+
+
+@media (max-width: 1000px) {
+    .Bl2_Box2 img {
+        display: none;
+    }
+
+}
+
+@media (min-width: 1000px) {
+    .Bl2_Box2_Carousel{
+        display: none;
+    }
+
+}
 
 
 /* Блок 3  */
+
+
 
 @media (max-width: 767.98px) {
     .Block3 .row {
