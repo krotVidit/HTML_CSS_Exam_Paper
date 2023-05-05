@@ -125,6 +125,8 @@ img {
 
 .Bl2_Box2_Carousel img {
     min-width: 400px;
+    margin-top: 2em;
+    border-radius: 14px;
 }
 
 
@@ -139,7 +141,28 @@ img {
     .Bl2_Box2_Carousel{
         display: none;
     }
+    .Bl2_BoxAccordion{
+        display: none;
+    }
 
+}
+
+@media (max-width: 1000px) {
+  .Bl2_Box1 {
+    margin: auto;
+    margin-top: 3em;
+    width: 100%;
+  }
+  .Bl2_Box1 a  {
+    display: none;
+  }
+  .circleList{
+display: none;
+  }
+  .Bl2_BoxRecent{
+    display: none;
+  }
+  
 }
 
 
@@ -296,6 +319,7 @@ img {
     margin-bottom: 4em;
     padding-bottom: 2em;
     padding-top: 2em;
+    
 }
 
 @media (min-width: 768px) {
@@ -309,7 +333,7 @@ img {
 
 
 .Block_6 {
-    padding-top: 1em;
+    
     margin-bottom: 5em;
     background-color: #E5F0FD;
 }
