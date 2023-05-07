@@ -390,6 +390,7 @@ img {
 }
 
 
+
 /* Блок 6 */
 
 
@@ -399,6 +400,22 @@ img {
     background-color: #E5F0FD;
 }
 
+@media (max-width: 64em) {
+    .Bl6_BoxMobile img {
+        display: none;
+    }
+    .Bl6_BoxText{
+         flex: 0 0 100%;
+        margin-bottom: 1em;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width:28em){
+    .Bl6_BoxText{
+        max-width: 23em;
+    }
+}
 
 /* Блок 7 */
 
