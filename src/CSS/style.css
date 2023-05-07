@@ -176,7 +176,7 @@ img {
 
 }
 
-@media (min-width: 65em) {
+@media (min-width: 64em) {
     .Bl2_Box2_Carousel {
         display: none;
         min-width: auto;
@@ -188,7 +188,7 @@ img {
 
 }
 
-@media (max-width: 65em) {
+@media (max-width: 64em) {
     .Bl2_Box1 {
         margin: auto;
         margin-top: 4em;
@@ -377,18 +377,22 @@ img {
 
 }
 
-@media (min-width: 64em) {
-    .carousel-item.active {
+@media(max-width: 64em){
+    .Bl5_CollumPng {
+       
         display: none;
     }
-    .carousel-control-prev{
-        display: none;
+    .Bl5_Carousel img{
+        max-width: 18em;
+        margin: auto;
+        
     }
-    .carousel-control-next{
+}
+@media(min-width: 64em){
+    .Bl5_Carousel{
         display: none;
     }
 }
-
 
 
 /* Блок 6 */
