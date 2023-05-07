@@ -35,6 +35,8 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 1.5%;
+    margin-bottom: 0.5em;
+    margin-left: 1em;
 }
 
 .Search_field {
@@ -53,7 +55,7 @@ img {
 
 @media (min-width: 68.5em) {
     .Navbar_Panel {
-        margin-left: 4em;
+        margin-left: 3em;
         margin-right: 4em;
         transition: all 0.3s ease;
 
@@ -61,7 +63,13 @@ img {
 }
 
 
+
 /* Блок 1 */
+
+.Block_1{
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
 
 
 .Button_Invite {
@@ -86,6 +94,8 @@ img {
     padding: 0.5em;
     margin-bottom: 2em;
 }
+
+
 
 
 /* Блок 2  */
