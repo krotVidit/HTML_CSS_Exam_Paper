@@ -377,14 +377,16 @@ img {
 
 }
 
-@media (max-width: 65em) {
-    .Box5_CollumPnG_Carousel img {
+@media (min-width: 64em) {
+    .carousel-item.active {
         display: none;
     }
-    
-}
-@media(min-width:65em){
-    
+    .carousel-control-prev{
+        display: none;
+    }
+    .carousel-control-next{
+        display: none;
+    }
 }
 
 
