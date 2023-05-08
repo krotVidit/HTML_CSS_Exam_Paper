@@ -394,6 +394,19 @@ img {
     }
 }
 
+@media (min-width: 64em) {
+    .carousel-item.active {
+        display: none;
+    }
+    .carousel-control-prev{
+        display: none;
+    }
+    .carousel-control-next{
+        display: none;
+    }
+}
+
+
 
 /* Блок 6 */
 
