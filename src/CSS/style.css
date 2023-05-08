@@ -394,17 +394,7 @@ img {
     }
 }
 
-@media (min-width: 64em) {
-    .carousel-item.active {
-        display: none;
-    }
-    .carousel-control-prev{
-        display: none;
-    }
-    .carousel-control-next{
-        display: none;
-    }
-}
+
 
 
 
@@ -462,4 +452,19 @@ img {
 
 .Block_8 {
     background-color: #2B2B39;
+}
+
+
+/* Медиа запрос для карусели */
+
+@media (min-width: 64em) {
+    .carousel-item.active {
+        display: none;
+    }
+    .carousel-control-prev{
+        display: none;
+    }
+    .carousel-control-next{
+        display: none;
+    }
 }
