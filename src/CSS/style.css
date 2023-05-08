@@ -2,8 +2,8 @@ body {
     font-family: 'Inter';
     margin: 0;
     padding: 0;
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
     min-width: 17em;
 }
 
@@ -25,7 +25,7 @@ img {
 .header {
     max-width: 106em;
     margin: auto;
-    width: 100%;
+    max-width: 100%;
     height: 100%;
     overflow: hidden;
 }
@@ -308,8 +308,8 @@ img {
 }
 
 .Bl3_Box3_Button_Discover button {
-    width: 12em;
-    height: 3.6em;
+   max-width: 12em;
+    max-height: 4em;
 }
 
 
@@ -342,8 +342,8 @@ img {
 }
 
 .Bl4_Box1_TextCenter {
-    width: 27.6em;
-    height: 8.6;
+    max-width: 28em;
+    max-height: 9em;
     margin-bottom: 2.5em;
 }
 
@@ -367,8 +367,8 @@ img {
 }
 
 .Bl5_BoxRadio {
-    width: 25em;
-    height: 4.5em;
+    max-width: 25em;
+    max-height: 5em;
     background-color: #cbddf542;
     border-radius: 14px;
     margin-bottom: 4em;
@@ -377,19 +377,22 @@ img {
 
 }
 
-@media(max-width: 64em){
+@media(max-width: 64em) {
     .Bl5_CollumPng {
-       
+
         display: none;
     }
-    .Bl5_Carousel img{
+
+    .Bl5_Carousel img {
         max-width: 18em;
         margin: auto;
         
+
     }
 }
-@media(min-width: 64em){
-    .Bl5_Carousel{
+
+@media(min-width: 64em) {
+    .Bl5_Carousel {
         display: none;
     }
 }
@@ -411,15 +414,17 @@ img {
     .Bl6_BoxMobile img {
         display: none;
     }
-    .Bl6_BoxText{
-         flex: 0 0 100%;
+
+    .Bl6_BoxText {
+        flex: 0 0 100%;
         margin-bottom: 1em;
         display: flex;
         justify-content: center;
     }
 }
-@media (max-width:28em){
-    .Bl6_BoxText{
+
+@media (max-width:28em) {
+    .Bl6_BoxText {
         max-width: 23em;
     }
 }
@@ -430,19 +435,23 @@ img {
 .Block_7 {
     padding-bottom: 2em;
     margin-bottom: 4em;
+    
 }
 
-@media (max-width:64em){
-    .Bl7_ColPng{
+@media (max-width:64em) {
+    .Bl7_ColPng {
         display: none;
     }
-    .Bl7_Carousel{
-       max-width: 20em; 
-       margin-top: 1em;
+
+    .Bl7_Carousel {
+        max-width: 20em;
+        margin-top: 1em;
         margin: auto;
         
+
     }
-    .Bl7_CenterText{
+
+    .Bl7_CenterText {
         margin-bottom: 0em;
     }
 }
@@ -461,10 +470,12 @@ img {
     .carousel-item.active {
         display: none;
     }
-    .carousel-control-prev{
+
+    .carousel-control-prev {
         display: none;
     }
-    .carousel-control-next{
+
+    .carousel-control-next {
         display: none;
     }
 }
