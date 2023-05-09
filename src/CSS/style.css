@@ -112,7 +112,7 @@ img {
     margin-bottom: 1rem;
     margin-left: 2.4em;
     max-width: 20em;
-    
+
 
 
 }
@@ -122,8 +122,8 @@ img {
     display: none;
 }
 
-@media(min-width: 48em){
-    .Bl1_Box2{
+@media(min-width: 48em) {
+    .Bl1_Box2 {
         display: block;
     }
 
@@ -245,10 +245,11 @@ img {
     padding: 1.4em;
     padding-bottom: 3em;
     background-color: white;
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
-    border: 1px ridge #3d3d3f08;
+    background-color: #ededed0f;
+    border: 1px solid #30303118;
     border-top: none;
     border-radius: 0.8em;
+    transition: box-shadow 0.3s ease;
 }
 
 
@@ -286,14 +287,21 @@ img {
     background-color: #ededed0f;
     border: 1px solid #30303118;
     border-radius: 0.8em;
+    transition: box-shadow 0.3s ease;
 }
 
 .Bl3_Box3 {
-    max-width: 20em;
+    max-width: 23em;
     max-height: 21em;
     min-width: 19em;
     min-height: 20em;
     padding-top: 1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    border-radius: 14px;
+     background-color: #ededed0f;
+    border: 1px solid #30303118;
+    transition: box-shadow 0.3s ease;
 }
 
 
@@ -327,6 +335,12 @@ img {
 }
 
 
+.Bl3_Pointer_Shawdows:hover {
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    border: 1px ridge #3d3d3f08;
+    border-radius: 14px;
+}
+
 @media (max-width: 75em) {
     .Block_3 {
         padding-top: 5em;
@@ -342,21 +356,25 @@ img {
         justify-content: center;
     }
 
-    .Bl3_Box3{
-    
-    max-height: 25em;
-    padding-top: 1.5em;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-    padding-bottom: 1.5em;
-    background-color: #FFFFFF;
+    .Bl3_Box3 {
+        max-width: 20em;
+        max-height: 25em;
+        padding-top: 1.5em;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+        padding-bottom: 1.5em;
+        background-color: #FFFFFF;
     }
 
 
 
-.Bl3_Box2{
-    background-color: #FFFFFF;
-}
+    .Bl3_Box2 {
+        background-color: #FFFFFF;
+    }
+
+    .Bl3_Box1{
+        background-color: #FFFFFF;
+    }
 
 }
 
