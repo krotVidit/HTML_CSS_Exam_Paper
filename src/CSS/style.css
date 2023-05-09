@@ -88,9 +88,9 @@ img {
     opacity: 0.6;
     border-radius: 8px;
     font-style: normal;
-    font-weight: 31.25em;
+    font-weight: 32em;
     font-size: 0.75em;
-    line-height: 0.75em;
+    line-height: 1em;
     padding: 0.5em;
     margin-bottom: 2em;
 }
@@ -109,25 +109,22 @@ img {
 }
 
 .Bl1_Box1 {
-    margin-bottom: 1rem;
+    margin-bottom: 1em;
     margin-left: 2.4em;
-    max-width: 20em;
-
-
-
+    max-width: 36em;
 }
 
-.Bl1_Box2 {
-
-    display: none;
-}
-
-@media(min-width: 48em) {
-    .Bl1_Box2 {
-        display: block;
+@media(max-width:48em){
+    .Bl1_Box2{
+        display: none;
     }
-
+    .Bl1_Box1{
+        max-width: 20em;
+        margin: auto;
+    }
 }
+
+
 
 
 
