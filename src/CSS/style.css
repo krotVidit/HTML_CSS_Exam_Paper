@@ -114,11 +114,12 @@ img {
     max-width: 36em;
 }
 
-@media(max-width:48em){
-    .Bl1_Box2{
+@media(max-width:48em) {
+    .Bl1_Box2 {
         display: none;
     }
-    .Bl1_Box1{
+
+    .Bl1_Box1 {
         max-width: 20em;
         margin: auto;
     }
@@ -241,10 +242,8 @@ img {
     min-height: 20em;
     padding: 1.4em;
     padding-bottom: 3em;
-    background-color: white;
     background-color: #ededed0f;
     border: 1px solid #30303118;
-    border-top: none;
     border-radius: 0.8em;
     transition: box-shadow 0.3s ease;
 }
@@ -296,7 +295,7 @@ img {
     padding-left: 1.5em;
     padding-right: 1.5em;
     border-radius: 14px;
-     background-color: #ededed0f;
+    background-color: #ededed0f;
     border: 1px solid #30303118;
     transition: box-shadow 0.3s ease;
 }
@@ -369,7 +368,7 @@ img {
         background-color: #FFFFFF;
     }
 
-    .Bl3_Box1{
+    .Bl3_Box1 {
         background-color: #FFFFFF;
     }
 
@@ -392,6 +391,9 @@ img {
     margin-bottom: 2.5em;
 }
 
+
+
+
 @media (max-width: 65em) {
     .Bl4_BoxCollum .row>div {
         flex: 0 0 100%;
@@ -412,14 +414,26 @@ img {
 }
 
 .Bl5_BoxRadio {
-    max-width: 25em;
+    max-width: 26em;
     max-height: 5em;
     background-color: #cbddf542;
     border-radius: 14px;
+    margin-top: 2em;
     margin-bottom: 4em;
     padding-bottom: 2em;
     padding-top: 2em;
 
+
+}
+
+.Bl5_ButtonRadio {
+    border: none;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    justify-content: center;
+    border-radius: 16px;
 }
 
 @media(max-width: 64em) {
@@ -442,7 +456,15 @@ img {
     }
 }
 
-
+@media(max-width:27em) {
+    .Bl5_ButtonRadio {
+        padding-left: 1.8em;
+        padding-right: 1.8em;
+    }
+.Bl5_BoxRadio{
+    max-width: 22em;
+}
+}
 
 
 
