@@ -43,13 +43,27 @@ img {
     background: transparent;
     border: none;
     border-bottom: 1px solid #ccc;
-    padding-left: 10px;
-    max-width: 9em;
-    max-height: 2em;
+    padding-left: 0.8em;
+    max-width: 10em;
+    max-height: 5em;
     font-weight: 25em;
     font-size: 0.75em;
     line-height: 0.875em;
+    
 
+}
+
+.Bl1_Login {
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.8em;
+    line-height: 0.8em;
+    margin-left: 1em;
+    border-radius: 1em;
 }
 
 
@@ -434,6 +448,8 @@ img {
     padding-right: 2.5em;
     justify-content: center;
     border-radius: 16px;
+    color: #2f2c4ab3;
+    font-weight: bold;
 }
 
 @media(max-width: 64em) {
@@ -461,9 +477,10 @@ img {
         padding-left: 1.8em;
         padding-right: 1.8em;
     }
-.Bl5_BoxRadio{
-    max-width: 22em;
-}
+
+    .Bl5_BoxRadio {
+        max-width: 22em;
+    }
 }
 
 
