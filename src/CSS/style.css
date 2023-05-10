@@ -13,7 +13,7 @@ img {
 }
 
 
-/* Навигационная панель */
+/* TODO: Навигационная панель */
 
 
 .Navigation_and_Block_1 {
@@ -53,7 +53,7 @@ img {
 
 }
 
-.Bl1_Login {
+.Nav_Login {
     padding-left: 3em;
     padding-right: 3em;
     padding-top: 1.5em;
@@ -67,11 +67,8 @@ img {
 }
 
 
+/* TODO: Блок 1 */
 
-
-
-
-/* Блок 1 */
 
 .Block_1 {
     padding-top: 1em;
@@ -146,11 +143,6 @@ img {
 
 
 
-
-
-
-
-
 /* Блок 2  */
 
 
@@ -205,8 +197,6 @@ img {
 }
 
 
-
-
 @media (max-width: 64em) {
     .Bl2_Box2 img {
         display: none;
@@ -249,11 +239,9 @@ img {
     }
 
 }
+ 
 
-
-
-
-/* Блок 3  */
+/*TODO: Блок 3  */
 
 
 .Block_3 {
@@ -432,7 +420,7 @@ img {
 }
 
 
-/*Блок 5  */
+/*TODO: Блок 5  */
 
 
 .Block_5 {
@@ -474,8 +462,6 @@ img {
     .Bl5_Carousel img {
         max-width: 18em;
         margin: auto;
-
-
     }
 }
 
@@ -497,8 +483,7 @@ img {
 }
 
 
-
-/* Блок 6 */
+/* TODO: Блок 6 */
 
 
 .Block_6 {
@@ -526,7 +511,8 @@ img {
     }
 }
 
-/* Блок 7 */
+
+/* TODO: Блок 7 */
 
 
 .Block_7 {
@@ -544,8 +530,6 @@ img {
         max-width: 20em;
         margin-top: 1em;
         margin: auto;
-
-
     }
 
     .Bl7_CenterText {
@@ -553,11 +537,14 @@ img {
     }
 }
 
-/* Блок 8 */
+
+/* TODO: Блок 8 */
 
 
 .Block_8 {
     background-color: #2B2B39;
+    padding-bottom: 4em;
+    padding-top: 2em;
 }
 
 .Bl8_Col_1 {
@@ -589,6 +576,7 @@ img {
 
 }
 
+
 .Bl8_C5_Form_button.btn.btn-outline-secondary {
     background-color: white;
     color: black;
@@ -596,7 +584,6 @@ img {
     max-width: 8em;
     max-height: 3em;
     border-radius: 14px;
-
 }
 
 .Bl8_Col_5 {
@@ -619,6 +606,11 @@ img {
     margin-top: 1em;
 }
 
+.Bl8_C5_Form::placeholder{
+    color:#717179;
+    padding-left: 1em;
+}
+
 @media(min-width:64em){
 .Bl8_Col_5{
     max-width: 24em;
@@ -628,8 +620,8 @@ img {
 }
 
 
+/*TODO: Блок подвала  */
 
-/* Блок подвала  */
 
 .Block_Footer{
     background-color: #20202D;
@@ -655,7 +647,9 @@ cursor: pointer;
     
 }
 
-/* Медиа запрос для каруселей */
+
+
+/*TODO: Медиа запрос для каруселей */
 
 @media (min-width: 64em) {
     .carousel-item.active {
