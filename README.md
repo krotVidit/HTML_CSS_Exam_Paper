@@ -1,4 +1,4 @@
-# HTML_CSS_Exam_Pape
+# HTML_CSS_Exam_Paper
 
 Данный репрезитории используется в учебных целях.
 Макет для верстки : https://www.figma.com/file/Sn343Fc787M3FSzDkGexs9/Free-Landing-Page-Design-(Community)?node-id=5-123&t=mYL9Zn8Szed4J03t-0
