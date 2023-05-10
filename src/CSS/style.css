@@ -67,14 +67,7 @@ img {
 }
 
 
-@media (min-width: 48em) {
-    .Navbar_Panel {
-        margin-left: 3em;
-        margin-right: 4em;
-        transition: all 0.3s ease;
 
-    }
-}
 
 
 
