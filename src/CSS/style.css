@@ -49,7 +49,7 @@ img {
     font-weight: 25em;
     font-size: 0.75em;
     line-height: 0.875em;
-    
+
 
 }
 
@@ -85,6 +85,11 @@ img {
     padding-bottom: 2em;
 }
 
+.Bl1_Box1_title {
+    font-weight: 630;
+    font-size: 3.5em;
+    max-width: 630;
+}
 
 .Button_Invite {
     text-decoration: none;
@@ -120,24 +125,32 @@ img {
         background-size: cover;
 
     }
-}
 
-.Bl1_Box1 {
-    margin-bottom: 1em;
-    margin-left: 2.4em;
-    max-width: 36em;
-}
-
-@media(max-width:48em) {
-    .Bl1_Box2 {
-        display: none;
-    }
 
     .Bl1_Box1 {
+        margin-bottom: 1em;
+        margin-left: 2.4em;
+        max-width: 36em;
         max-width: 20em;
         margin: auto;
     }
+
+    .Bl1_Box2 {
+        display: none;
+    }
 }
+
+
+@media(max-width:64em){
+    .Bl1_Box1_title{
+        font-size: 2em;
+    }
+    .Bl1_Box1{
+        margin-left: 1.5em;
+    }
+}
+
+
 
 
 
@@ -192,9 +205,9 @@ img {
     color: #217BF4;
 }
 
-.Bl2_Circles_List span{
- color:#171648 ;
- font-weight:500 ;
+.Bl2_Circles_List span {
+    color: #171648;
+    font-weight: 500;
 }
 
 
