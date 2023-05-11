@@ -246,7 +246,7 @@ img {
 
 .Block_3 {
     margin-top: 4em;
-    margin-bottom: 6em;
+    margin-bottom: 4em;
 }
 
 
@@ -261,6 +261,7 @@ img {
     border: 1px solid #30303118;
     border-radius: 0.8em;
     transition: box-shadow 0.3s ease;
+    margin-bottom: 1em;
 }
 
 
@@ -299,6 +300,7 @@ img {
     border: 1px solid #30303118;
     border-radius: 0.8em;
     transition: box-shadow 0.3s ease;
+    margin-bottom: 1em;
 }
 
 .Bl3_Box3 {
@@ -313,6 +315,7 @@ img {
     background-color: #ededed0f;
     border: 1px solid #30303118;
     transition: box-shadow 0.3s ease;
+    margin-bottom: 1em;
 }
 
 
@@ -428,15 +431,21 @@ img {
     margin-bottom: 3em;
 }
 
+.Bl5_BoxCenter{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
 .Bl5_BoxRadio {
     max-width: 26em;
     max-height: 5em;
     background-color: #cbddf542;
     border-radius: 14px;
-    margin-top: 2em;
+    margin-top: 1em;
     margin-bottom: 4em;
     padding-bottom: 2em;
-    padding-top: 2em;
+    padding-top: 1em;
 
 
 }
